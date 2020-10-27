@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+}
+
+.header :after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.nu {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.nu ul li {
+    display: inline-block;
+    float: right;
+}
+
+.nu ul li a {
+    color: black;
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+.nu ul li a:hover {
+    background-color: grey;
+}
+
+.hero img {
+    width: 35%;
+    position: absolute;
+}
+
+.hero {
+    color: white;
+    height: 100vh;
+}
+
+.hero-text h1 {
+    padding-top: 10%;
+    font-size: 150px;
+    font-family: 'monsteserrat', sans-serif;
+    margin-left: 35%;
+}
+
+.hero-text p {
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 40%;
+    margin-right: 30%;
+    float: right;
+}
+
+.hero-text a {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 15px;
+    margin-left: 47%;
+    margin-right: 30%;
+    display: inline-block;
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 25px;
+    border: 3px solid white;
+}
+
+.hero-text a:hover {
+    background-color: rgb(212, 134, 134);
+}
+
+.XIXI p {
+    padding-top: 10%;
+    padding-right: 15px;
+    float: right;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.lain h2 {
+    font-family: 'monsteserrat', sans-serif;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.foto {
+    width: 85%;
+    border: 5px solid;
+    height: 650px;
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.foto img {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}
+
+.desc1 img {
+    float: left;
+    width: 40%;
+    position: absolute;
+    margin-left: 10%;
+}
+
+.desc1 p {
+    font-size: 25px;
+    font-family: 'josefin sans', sans-serif;
+    margin-left: 53%;
+    margin-right: 5%;
+    float: right;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.desc2 img {
+    float: right;
+    width: 42%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+
+.desc2 p {
+    padding-top: 25%;
+    font-size: 25px;
+    font-family: 'josefin sans', sans-serif;
+    margin-left: 10%;
+    padding-right: 30px;
+    margin-right: 50%;
+    float: left;
+    color: white;
+    position: absolute;
+}
